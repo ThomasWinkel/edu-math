@@ -1,4 +1,4 @@
-from edu_math import Matrix
+from geradeaus_edu_math import Matrix
 
 a = Matrix(1)
 b = Matrix(1.1)

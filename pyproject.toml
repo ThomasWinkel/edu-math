@@ -1,14 +1,18 @@
 [project]
-name = "edu-math"
+name = "geradeaus-edu-math"
 version = "0.1.0"
-description = "Add your description here"
+description = "Mathematics package for educational purposes."
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 authors = [
     { name = "Thomas Winkel", email = "mail@thomas-winkel.de" }
 ]
 requires-python = ">=3.13"
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ThomasWinkel/edu-math"
 
 [build-system]
 requires = ["uv_build>=0.9.26,<0.10.0"]
